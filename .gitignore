@@ -1,0 +1,11 @@
+# 编译生成的可执行文件
+*.exe
+*.class
+*.zip
+
+# CMake构建文件夹
+cmake-build-debug/
+
+# VS Code本地配置（可选）
+.vscode/tasks.json
+.vscode/launch.json
