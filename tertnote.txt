@@ -1,1 +1,7 @@
-djnsjh
+class Solution(object):
+    def twoSum(self, nums, target):
+        n = len(nums)
+        for x in range(0,n-1):
+            for q in range(x+1,n):
+                if nums[x]+nums[q] == target:
+                    return x,q
